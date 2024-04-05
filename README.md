@@ -29,6 +29,10 @@
 
 ## Configuring the USR-TCP232-304
 
+Access device configuration by accessing the default IP address with a browser
+
+---
+
 Set Local IP Config in a way that makes sense for your network
 
 ---
