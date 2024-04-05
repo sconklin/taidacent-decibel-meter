@@ -1,5 +1,16 @@
 ### Acoustic Sensor
 
+# Description
+I was looking for an inexpensive way to record sound levels outdoors. I don't care whether the sensor is traceable to a standard, as long as it's in the ballpark.
+
+I found a sensing device on Ali Express which interfaces with Modbus RS-485, and I also found an ethernet to Modbus RS-485 adapter (from a different vendor). The total price for both was under $60 USD.
+
+The vendor had posted no information for the sensor beyond the sales information. I found a negative product review for the same device that mentioned that the modbus settings were 4800 baud and device address 1. That saved me some experimentation.
+
+I could only get a response from register number 1 on the device, and it contains the dB reading times 10.
+
+This works well so far, and I've included a simple python script which demonstrates reading from the sensor every second.
+
 # Sensor info
 * [purchase link](https://www.aliexpress.us/item/3256801639491925.html)
 * DC power supply 10-30V Dc
