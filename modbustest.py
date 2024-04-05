@@ -8,7 +8,8 @@ while True:
     regs = c.read_holding_registers(0)
 
     if regs:
-        print(regs)
+        dB = regs[0] / 10
+        print(dB, "dB")
     else:
         print("read error")
     time.sleep(1)
