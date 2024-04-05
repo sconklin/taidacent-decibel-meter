@@ -19,7 +19,7 @@
 * Yellow - RS485 A
 * Blue - RS485 B
 
-# TCP to RS-485 module info
+# USR-TCP232-304 TCP to RS-485 module info
 * [purchase link](https://www.aliexpress.us/item/2255800110028561.html)
 * [manual](USR-TCP232-304-User-Manual_V1.0.3.01.pdf)
 * Set RS-485 baud rate to 4800
@@ -27,8 +27,36 @@
 * 5-7V Power Supply
 * Default IP Address: 192.168.0.7
 
-## Configured Now
-* Configured as MODBUS TCP Client
+## Configuring the USR-TCP232-304
+
+Set Local IP Config in a way that makes sense for your network
+
+---
+
+Set the Serial Port configuration as shown here.
+
+Change the Baud Rate to 4800 bps
+
+Change the work mode to TCP Server
+
+![Serial Port Setup screen](https://github.com/sconklin/taidacent-decibel-meter/blob/main/serial_port_setup.png?raw=true)
+
+---
+
+Set the Expand Function configuration as shown here
+
+Change Modbus Type to Modbus TCP/RTU
+
+![Expand Function Setup screen](https://github.com/sconklin/taidacent-decibel-meter/blob/main/expand_function_setup.png?raw=true)
+
+---
+
+Set the Misc Config configuration as shown here
+
+Change the admins password
+
+![Expand Function Setup screen](https://github.com/sconklin/taidacent-decibel-meter/blob/main/misc_config_setup.png?raw=true)
+
 
 # Measured Current Consumption
 * Sensor Unit 8 mA @ 12 VDC
