@@ -22,6 +22,7 @@
 # TCP to RS-485 module info
 * [purchase link](https://www.aliexpress.us/item/2255800110028561.html)
 * [manual](USR-TCP232-304-User-Manual_V1.0.3.01.pdf)
+* Set RS-485 baud rate to 4800
 * Part Number USR-TCP232-304
 * 5-7V Power Supply
 * Default IP Address: 192.168.0.7
